@@ -12,7 +12,8 @@ client.on('ready', () => {
 
     new WOKCommands(client, {
        commandsDir: 'commands',
-       featuresDir: 'features', 
+       featuresDir: 'features',
+       testServers: '855955547164639273'
     })
     .setCategorySettings({
         name: 'Infos',
